@@ -1,0 +1,143 @@
+.answer {
+    padding: 20px 0;
+}
+
+.answer-results {
+    display: flex;
+}
+
+#answer-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #DCDCF3;
+}
+
+#answer-pre-title {
+    font-size: 20px;
+    line-height: 24px;
+    color: #6933DC;
+}
+
+#answer-title img {
+    padding: 0 15px;
+}
+
+.answer-one-results img {
+    padding: 0 17px;
+}
+
+
+.correct-answer-title {
+    padding: 60px 0 40px;
+    font-family: Museo Sans Cyrl Bold, sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+.correct-answer-title span {
+    color: #6933DC;
+}
+
+.correct-answer-option {
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.correct-answer-option:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+
+.back-to-result {
+
+    border: transparent;
+    background-color: transparent;
+    align-items: center;
+}
+
+.back {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.to-result {
+    font-size: 17px;
+    line-height: 20px;
+    color: #6933DC;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 60px;
+}
+
+.back-to-result a:hover {
+    text-decoration: underline;
+}
+
+.back-to-result a img {
+    margin-left: 13px;
+}
+
+.answer-correct {
+    font-size: 54px;
+    padding: 60px 0 10px;
+    color: #6933DC;
+}
+
+.answer-correct span {
+    color: #333333;
+}
+
+.answer-user {
+    font-size: 20px;
+    color: #6933DC;
+}
+
+.answer-user-name {
+    font-size: 20px;
+    color: #6933DC;
+    line-height: 24px;
+}
+
+.answer-user-name span {
+    font-size: 20px;
+    color: #333333;
+}
+
+
+.checked-correct {
+    color: #5FDC33;
+    .option-answer {
+        width: 9px;
+        height: 9px;
+        border: 6px solid #5FDC33;
+    }
+}
+
+
+.checked-wrong {
+    color: #DC3333;
+    .option-answer {
+        width: 9px;
+        height: 9px;
+        border: 6px solid #DC3333;
+    }
+}
+
+
+input[type="radio"]:checked::before {
+    transform: scale(0);
+}
+
+.option-answer {
+    margin-right: 13px;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #6933DC;
+    border-radius: 50%;
+}
+
